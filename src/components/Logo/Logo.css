@@ -1,0 +1,21 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flipkart-img {
+  display: block;
+}
+
+.logo-lower {
+  font-size: 11px;
+  font-style: italic;
+  margin-top: -1px;
+}
+
+.logo-lower > span {
+  color: #ffe500;
+  font-weight: 500;
+  margin-right: 2px;
+}

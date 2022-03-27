@@ -1,0 +1,62 @@
+.products {
+  margin: 8px 8px 8px 0px;
+}
+
+.products-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 420px;
+  gap: 1rem;
+}
+
+/* .product {
+  
+} */
+
+.product > * {
+  padding: 0 0.5rem;
+  margin-bottom: 8px;
+}
+
+.pdt-img {
+  padding: 0;
+  width: 100%;
+  height: 300px;
+  /* object-fit: cover; */
+}
+
+.pdt-brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pdt-brand-name {
+  color: #878787;
+  font-weight: 600;
+}
+
+.pdt-name {
+  width: calc(95%);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.pdt-price {
+  font-weight: 600;
+}
+
+.pdt-size {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.pdt-size > span {
+  color: #878787;
+  margin-right: 2px;
+  font-weight: 600;
+}

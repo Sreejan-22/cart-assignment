@@ -1,0 +1,18 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.filters,
+.products {
+  background-color: white;
+  border-radius: 1px;
+}
